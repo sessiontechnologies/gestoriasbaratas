@@ -14,9 +14,10 @@ install:
     - rm -rf public 2> /dev/null
 
 script:
-    - ls . ; ls public
+    - ls .
     - hugo version
     - hugo
+    - ls public*
     - cp CNAME > public/CNAME
 
 deploy:
