@@ -19,7 +19,7 @@ script:
     - ls .
     - hugo version
     - hugo -v
-    - cp CNAME > public/CNAME
+    - cp CNAME public
 
 deploy:
   provider: pages
