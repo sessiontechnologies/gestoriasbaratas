@@ -2,6 +2,7 @@ baseURL: https://gestoriasbaratas.es
 languageCode: en-us
 title: Gestorias Baratas
 theme: hugo-fresh
+publishDir: "docs"
 
 params:
   font:
