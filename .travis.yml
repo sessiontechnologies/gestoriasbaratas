@@ -32,4 +32,4 @@ deploy:
   local-dir: .
   target_branch: master  # branch contains blog content
   # on:
-  #   branch: gh_pages
+  #   branch: code
