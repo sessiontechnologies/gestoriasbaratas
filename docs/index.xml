@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestorias Baratas</title>
+    <link>https://gestoriasbaratas.es/</link>
+    <description>Recent content on Gestorias Baratas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://gestoriasbaratas.es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
