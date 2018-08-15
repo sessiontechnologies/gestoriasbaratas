@@ -12,13 +12,13 @@ install:
     - sudo dpkg -i hugo*.deb
     - pip install Pygments
     - rm -rf public 2> /dev/null
+    - mkdir -p content
+    - mkdir -p public
 
 script:
-    - mkdir -p content
     - ls .
     - hugo version
     - hugo
-    - ls public
     - cp CNAME > public/CNAME
 
 deploy:
