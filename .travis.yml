@@ -8,8 +8,8 @@ install:
     - sudo dpkg -i hugo*.deb
     - pip install Pygments
     - rm -rf docs 2> /dev/null
-    - npm install postcss-cli
-    - npm install bulma
+    - npm install -g postcss-cli
+    - npm install -g bulma
     - mkdir -p content
     - mkdir -p docs
 
