@@ -8,6 +8,7 @@ install:
     - sudo dpkg -i hugo*.deb
     - pip install Pygments
     - rm -rf docs 2> /dev/null
+    - npm install postcss-cli
     - mkdir -p content
     - mkdir -p docs
 
