@@ -12,7 +12,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Gestoria barata en Barcelona, powered by CONTAFITAX
+    title: Gestoria barata en Barcelona, powered by CONTAFITAX!
     # Hero subtitle (optional)
     subtitle: Te vendras por el precio. Te quedarás por nuestros servicios.
     # Button text
@@ -149,45 +149,3 @@ params:
       link: /politica-cookies
     - text: Aceptación
       link: /aceptacion
-
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    # socialmedia:
-    # - link: https://github.com/lucperkins/github-fresh
-    #   # Icons are from Font Awesome
-    #   icon: github
-    # - link: https://dribbble.com/#
-    #   icon: dribbble
-    # - link: https://facebook.com/#
-    #   icon: facebook
-    # - link: https://twitter.com/lucperkins
-    #   icon: twitter
-    # - link: https://bitbucket.org/#
-    #   icon: bitbucket
-    # bulmalogo: false
-    # product:
-    # - text: Discover features
-    #   link: /
-    # - text: Why choose our product?
-    #   link: /
-    # - text: Compare features
-    #   link: /
-    # - text: Our roadmap
-    #   link: /
-    # - text: Request features
-    #   link: /
-    # docs:
-    # - text: Get started
-    #   link: /
-    # - text: User guides
-    #   link: /
-    # - text: Admin guide
-    #   link: /
-    # - text: Developers
-    #   link: /
-    # blogroll:
-    # - text: Latest news
-    #   link: /
-    # - text: Tech articles
-    #   link: /
-    # - text: Video blog
-    #   link: /
