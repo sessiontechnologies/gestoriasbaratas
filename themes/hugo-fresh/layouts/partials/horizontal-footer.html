@@ -8,17 +8,10 @@
 <footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <div class="footer-logo">
-          <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
-        </div>
-      </div>
       {{- range $footerLinks }}
         <div class="column">
           <div class="footer-column">
-            <div class="link-list">
-              <a href="{{ .link }}">{{ .text }}</a>
-            </div>
+            <ul class="link-list"><li><a href="{{ .link }}">{{ .text }}</a></li></ul>
           </div>
         </div>
       {{- end }}
