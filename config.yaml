@@ -20,7 +20,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#contacto"
     # Hero image (from /images/___)
-    image: illustrations/worker.svg
+    image: illustrations/salesman.jpg
     # Footer logos (from /images/logos/clients/___.svg)
     # clientlogos:
     # - systek
