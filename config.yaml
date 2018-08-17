@@ -30,10 +30,10 @@ params:
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Servicios
-    url: "#servicios"
   - title: Precios
     url: "#precios"
+  - title: Servicios
+    url: "#servicios"
   - title: Contacto
     url: "#contacto"
     button: true
