@@ -1,6 +1,6 @@
 baseURL: https://gestoriasbaratas.es
 languageCode: en-us
-title: Gestorias Baratas
+title: Gestorias Barata
 theme: hugo-fresh
 publishDir: docs
 
@@ -12,13 +12,13 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Gestoria barata en Barcelona, powered by CONTAFITAX!
+    title: Gestorias de empresas en toda España. Creación gratuita en 72 horas.
     # Hero subtitle (optional)
     subtitle: Te vendras por el precio. Te quedarás por nuestros servicios.
     # Button text
     buttontext: Contactanos
     # Where the main hero button links to
-    buttonlink: "/contacto"
+    buttonlink: "#contacto"
     # Hero image (from /images/___)
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
@@ -30,111 +30,65 @@ params:
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Empresa
-    url: /empresa
   - title: Servicios
-    sublinks:
-    - title: Contabilidad
-      url: /servicios/contabilidad
-    - title: Fiscalidad
-      url: /servicios/fiscalidad
-    - title: Mercantil
-      url: /servicios/mercantil
-    - title: Laboral
-      url: /servicios/laboral
+    url: "#servicios"
   - title: Precios
-    url: /precios
+    url: "#precios"
   - title: Contacto
-    url: /contacto
+    url: "#contacto"
     button: true
-  # sidebar:
-  #   logo: fresh-square
-    # sections:
-    # - title: User
-    #   icon: user
-    #   links:
-    #   - text: Profile
-    #     url: /
-    #   - text: Account
-    #     url: /
-    #   - text: Settings
-    #     url: /
-    # - title: Messages
-    #   icon: envelope
-    #   links:
-    #   - text: Inbox
-    #     url: /
-    #   - text: Compose
-    #     url: /
-    # - title: Images
-    #   icon: image
-    #   links:
-    #   - text: Library
-    #     url: /
-    #   - text: Upload
-    #     url: /
-    # - title: Settings
-    #   icon: cog
-    #   links:
-    #   - text: User settings
-    #     url: /
-    #   - text: App settings
-    #     url: /
+
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    ancor: precios
+    title: Nuestros precios
+    subtitle: Ahorro asegurado
     tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+    - title: Creación de una SL
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      text: Ahorra mas de 700€ y crea tu SL gratis, en 72 horas, cerca de tu casa
+    - title: Gestion empresarial completa
+      icon: mouse-globe
+      text: A partir de 90€/mes, gestionamos facturas, recibos, impuestos de manera sencilla y transparente para el cliente
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    ancor: servicios
+    title: Una nueva asesoria
+    subtitle: Desde el primer momento, notarás la diferencia
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Gestion completa
+      text: "Nuestro equipo cubre todos los servicios de gestoria para una empresa: contabilidad, impuestos, declaraciones, pagos, libros y cuentas."
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Informes
+      text: Entregamos balance de perdidas/ganancias, balance de situación, balance de sumas/saldos, y todos los informes periodicos que el cliente necesita, en diferentes formatos digitales (XLS o PDF)
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Herramientas de trabajo
+      text: Trabajamos con software que permite de gestionar facturas, pagos e informes te forma compartida con el cliente, para facilitar las operaciones diarias, mensuales y anuales. Nuestra plataforma tambien permite de gestionar facturas y recibos desde movil.
       icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+  # Main CTA - disabled for now
+  # section3:
+  #   title: One platform
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
+
+  # Testimonials - TODO in the future
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
