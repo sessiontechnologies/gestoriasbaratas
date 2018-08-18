@@ -46,17 +46,17 @@ params:
     tiles:
     - title: Consultoria de orientacion
       icon: plug-cloud
-      text: Explicanos tus problemas y te proporcionamos soluciones; la primera hora es gratis, sin compromiso.
+      text: Explicanos tus necesidades y te proporcionamos soluciones; la primera hora es gratis, sin compromiso.
     - title: Creación de una empresa SL
       icon: laptop-cloud
-      text: Ahorra mas de 700€ y crea tu SL gratis, en 72 horas, cerca de tu casa.
+      text: Ahorra mas de 700€ y crea tu empresa gratis, en 72 horas, cerca de tu casa.
     - title: Gestion empresarial completa
       icon: mouse-globe
-      text: A partir de 90€/mes, gestionamos facturas, recibos e impuestos de tu empresa, de manera sencilla y transparente para el cliente.
+      text: A partir de 90€/mes, gestionamos facturas, recibos e impuestos de tu empresa, de forma rápida y transparente.
   services:
     ancor: servicios
     title: Una nueva asesoria
-    subtitle: Hablamos tu idioma, utilizamos las mejores tecnologias disponible sin cobrar nada más. Desde el primer momento, notarás la diferencia.
+    subtitle: Hablamos tu idioma, utilizamos las mejores tecnologias como parte de nuestro proceso diario. Desde el primer momento, notarás la diferencia con otras asesorias.
     features:
     - title: Gestion completa
       text: "Nuestro equipo cubre todos los servicios de gestoria para una empresa: contabilidad, impuestos, declaraciones, pagos, libros y cuentas."
