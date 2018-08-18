@@ -6,6 +6,7 @@ publishDir: docs
 
 
 params:
+  jivoid: FmrIdswqLT
   logo: /images/logos/fresh-alt.svg
   font:
     name: "Open Sans"
