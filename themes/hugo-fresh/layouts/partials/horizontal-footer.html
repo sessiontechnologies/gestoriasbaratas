@@ -6,18 +6,32 @@
 {{- $socialMedia  := index $footer "socialmedia" }}
 {{- $bulmaLogo    := index $footer "bulmalogo" }}
 <footer class="footer footer-dark">
+  <script>
+    function addClass(classId, className) {
+      var element = document.getElementById(classId);
+      element.classList.add(className);
+    }
+  </script>
   <div class="container">
     <div class="columns">
       {{- range $footerLinks }}
         <div class="column">
-          <div class="footer-column">
-            <ul class="link-list"><li><a href="{{ .link }}">{{ .text }}</a></li></ul>
+          <div id="{{ .id }}" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+              {{ $path := printf "%s.html" .id }}
+              {{ partial $path . }}
+            </div>
+            <button class="modal-close is-large" aria-label="close"></button>
           </div>
+          <ul class="link-list"><li>
+            <a href="#" onclick="addClass({{ .id }},'is-active')">{{ .linkname }}</a>
+          </li></ul>
         </div>
       {{- end }}
 
       <p style="text-align:right; text-color: grey; font-size:0.8rem">Illustrations credits: <a target="_blank" href="https://www.vecteezy.com">Vecteezy.com</a> and <a target="_blank" href="https://www.vecteezy.com">FreePik.com</a></p>
-      
+
       {{- if $socialMedia }}
         <div class="column">
           <div class="footer-column">

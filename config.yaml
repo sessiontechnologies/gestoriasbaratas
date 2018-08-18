@@ -77,13 +77,7 @@ params:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
     footerlinks:
-    - text: Aviso Legal
-      link: /legal
-    - text: Política de Privacidad
-      link: /privacidad
-    - text: Condiciones de contratación
-      link: /contratacion
-    - text: Política de Cookies
-      link: /politica-cookies
-    - text: Aceptación
-      link: /aceptacion
+    - id: legal
+      linkname: Aviso Legal
+    - id: privacidad
+      linkname: Política de Privacidad
