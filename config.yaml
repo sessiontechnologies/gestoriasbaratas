@@ -44,15 +44,21 @@ params:
     title: Nuestros productos
     subtitle: Ahorro asegurado
     tiles:
-    - title: Consultoria de orientacion
-      icon: plug-cloud
-      text: Explicanos tus necesidades y te proporcionamos soluciones; la primera hora es gratis, sin compromiso.
     - title: Creación de una empresa SL
       icon: laptop-cloud
-      text: Ahorra mas de 700€ y crea tu empresa gratis, en 72 horas, cerca de tu casa.
+      buttonText: Gratis!
+      url: "#contacto"
+      text: Ahorra mas de 700€ y crea tu empresa gratis, en menos de 72 horas, y puedes firmar cerca de tu casa.
     - title: Gestion empresarial completa
       icon: mouse-globe
+      buttonText: 90€/mes
+      url: "#contacto"
       text: A partir de 90€/mes, gestionamos facturas, recibos e impuestos de tu empresa, de forma rápida y transparente.
+    - title: Tu consultoria a medida
+      icon: plug-cloud
+      buttonText: a medida
+      url: "#contacto"
+      text: Explicanos tus necesidades y te proporcionamos soluciones; la primera hora es gratis, sin compromiso.
   services:
     ancor: servicios
     title: Una nueva asesoria
