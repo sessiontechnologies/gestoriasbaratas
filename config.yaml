@@ -45,24 +45,24 @@ params:
     tiles:
     - title: Consultoria de orientacion
       icon: plug-cloud
-      text: Explicanos cuales son tus problemas, y te proporcionamos soluciones; la primera hora es <b>gratis</b>.
-    - title: Creación de una SL
-      icon: plug-cloud
-      text: Ahorra mas de 700€ y crea tu SL gratis, en 72 horas, cerca de tu casa
+      text: Explicanos tus problemas y te proporcionamos soluciones; la primera hora es gratis, sin compromiso.
+    - title: Creación de una empresa SL
+      icon: laptop-cloud
+      text: Ahorra mas de 700€ y crea tu SL gratis, en 72 horas, cerca de tu casa.
     - title: Gestion empresarial completa
       icon: mouse-globe
-      text: A partir de 90€/mes, gestionamos facturas, recibos, impuestos de manera sencilla y transparente para el cliente
+      text: A partir de 90€/mes, gestionamos facturas, recibos, impuestos de manera sencilla y transparente para el cliente.
   services:
     ancor: servicios
     title: Una nueva asesoria
-    subtitle: Hablamos tu idioma, utilizamos las mejores tecnologias disponible sin cobrar nada más. Desde el primer momento, notarás la diferencia
+    subtitle: Hablamos tu idioma, utilizamos las mejores tecnologias disponible sin cobrar nada más. Desde el primer momento, notarás la diferencia.
     features:
     - title: Gestion completa
       text: "Nuestro equipo cubre todos los servicios de gestoria para una empresa: contabilidad, impuestos, declaraciones, pagos, libros y cuentas."
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Informes
-      text: Entregamos balance de perdidas/ganancias, balance de situación, balance de sumas/saldos, y todos los informes periodicos que el cliente necesita, en diferentes formatos digitales (XLS o PDF)
+      text: Entregamos balance de perdidas/ganancias, balance de situación, balance de sumas/saldos, y todos los informes periodicos que el cliente necesita, en diferentes formatos digitales (XLS o PDF).
       icon: doc-sync
     - title: Herramientas de trabajo
       text: Trabajamos con software que permite de gestionar facturas, pagos e informes te forma compartida con el cliente, para facilitar las operaciones diarias, mensuales y anuales. Nuestra plataforma tambien permite de gestionar facturas y recibos desde movil.
