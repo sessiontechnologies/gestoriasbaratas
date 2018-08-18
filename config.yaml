@@ -7,7 +7,7 @@ publishDir: docs
 
 params:
   jivoid: FmrIdswqLT
-  logo: /images/logos/fresh-alt.svg
+  logo: /images/logos/gestoriasbarata.png
   font:
     name: "Open Sans"
     sizes: [400,600]
@@ -76,7 +76,7 @@ params:
   - waveapps
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: gestoriasbarata.png
     footerlinks:
     - id: legal
       linkname: Aviso Legal
