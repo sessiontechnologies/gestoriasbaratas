@@ -1,8 +1,8 @@
-{{- $section2 := .Site.Params.section2 }}
-{{- $ancor      := index $section2 "ancor" }}
-{{- $title    := index $section2 "title" }}
-{{- $subtitle := index $section2 "subtitle" }}
-{{- $features := index $section2 "features" }}
+{{- $services := .Site.Params.services }}
+{{- $ancor      := index $services "ancor" }}
+{{- $title    := index $services "title" }}
+{{- $subtitle := index $services "subtitle" }}
+{{- $features := index $services "features" }}
 <section id="{{ $ancor }}" class="section is-medium">
   <div class="container">
     <div class="columns">

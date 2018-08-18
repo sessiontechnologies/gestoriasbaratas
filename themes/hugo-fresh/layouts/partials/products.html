@@ -1,9 +1,9 @@
-{{- $section1 := .Site.Params.section1 }}
-{{- if $section1 }}
-  {{- $ancor    := index $section1 "ancor" }}
-  {{- $title    := index $section1 "title" }}
-  {{- $subtitle := index $section1 "subtitle" }}
-  {{- $tiles    := index $section1 "tiles" }}
+{{- $products := .Site.Params.products }}
+{{- if $products }}
+  {{- $ancor    := index $products "ancor" }}
+  {{- $title    := index $products "title" }}
+  {{- $subtitle := index $products "subtitle" }}
+  {{- $tiles    := index $products "tiles" }}
   <section id="{{ $ancor }}" class="section section-feature-grey is-medium">
     <div class="container">
       <div class="title-wrapper has-text-centered">

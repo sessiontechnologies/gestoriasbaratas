@@ -38,21 +38,24 @@ params:
     url: "#contacto"
     button: true
 
-  section1:
+  products:
     ancor: productos
     title: Nuestros productos
     subtitle: Ahorro asegurado
     tiles:
+    - title: Consultoria de orientacion
+      icon: plug-cloud
+      text: Explicanos cuales son tus problemas, y te proporcionamos soluciones; la primera hora es <b>gratis</b>.
     - title: Creación de una SL
       icon: plug-cloud
       text: Ahorra mas de 700€ y crea tu SL gratis, en 72 horas, cerca de tu casa
     - title: Gestion empresarial completa
       icon: mouse-globe
       text: A partir de 90€/mes, gestionamos facturas, recibos, impuestos de manera sencilla y transparente para el cliente
-  section2:
+  services:
     ancor: servicios
     title: Una nueva asesoria
-    subtitle: Desde el primer momento, notarás la diferencia
+    subtitle: Hablamos tu idioma, utilizamos las mejores tecnologias disponible sin cobrar nada más. Desde el primer momento, notarás la diferencia
     features:
     - title: Gestion completa
       text: "Nuestro equipo cubre todos los servicios de gestoria para una empresa: contabilidad, impuestos, declaraciones, pagos, libros y cuentas."
@@ -64,31 +67,12 @@ params:
     - title: Herramientas de trabajo
       text: Trabajamos con software que permite de gestionar facturas, pagos e informes te forma compartida con el cliente, para facilitar las operaciones diarias, mensuales y anuales. Nuestra plataforma tambien permite de gestionar facturas y recibos desde movil.
       icon: mobile-feed
-  # Main CTA - disabled for now
-  # section3:
-  #   title: One platform
-  #   subtitle: To rule them all
-  #   image: illustrations/mockups/app-mockup.png
-  #   buttonText: Get started
-  #   buttonLink: "#"
-
-  # Testimonials - TODO in the future
-  # section4:
-  #   title: Our Clients love us!
-  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-  #   clients:
-  #   - name: Irma Walters
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: Accountant
-  #     img: 1
-  #   - name: John Bradley
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: Financial Analyst
-  #     img: 2
-  #   - name: Gary Blackman
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: HR Manager
-  #     img: 3
+  technologies:
+  - appearin
+  - whatsapp
+  - googlesuite
+  - paypal
+  - waveapps
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
