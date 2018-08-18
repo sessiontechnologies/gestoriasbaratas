@@ -30,8 +30,8 @@ params:
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Precios
-    url: "#precios"
+  - title: Productos
+    url: "#productos"
   - title: Servicios
     url: "#servicios"
   - title: Contacto
@@ -39,8 +39,8 @@ params:
     button: true
 
   section1:
-    ancor: precios
-    title: Nuestros precios
+    ancor: productos
+    title: Nuestros productos
     subtitle: Ahorro asegurado
     tiles:
     - title: Creación de una SL
