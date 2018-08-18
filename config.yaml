@@ -44,7 +44,7 @@ params:
     title: Nuestros productos
     subtitle: Ahorro asegurado
     tiles:
-    - title: Creación de una empresa SL
+    - title: Creación de una empresa (SL)
       icon: laptop-cloud
       buttonText: Gratis!
       url: "#contacto"
