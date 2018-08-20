@@ -13,7 +13,8 @@ params:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    title: GestoriasBaratas.es - Gestion de empresas en toda España. Creación gratuita en 72 horas.
+    sitename: GestoriasBaratas.es
+    title: Gestión de empresas en toda España. Creación gratuita en 72 horas.
     subtitle: Te vendrás por el precio. Te quedarás por nuestros servicios.
     buttontext: Contactanos
     buttonlink: "#contacto"

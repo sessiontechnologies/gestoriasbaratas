@@ -1,5 +1,6 @@
 {{- $hero       := .Site.Params.hero }}
 {{- $title      := index $hero "title" }}
+{{- $sitename      := index $hero "sitename" }}
 {{- $subtitle   := index $hero "subtitle" }}
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
@@ -9,7 +10,7 @@
     <div class="columns">
       <div class="column is-5 is-offset-1 landing-caption">
         <h1 class="title is-1 is-bold is-spaced">
-          {{ $title }}
+          <span style="color: #f39205">{{ $sitename }}</span>{{ $title }}
         </h1>
         {{ with $subtitle }}
         <h2 class="subtitle is-5 is-muted">
