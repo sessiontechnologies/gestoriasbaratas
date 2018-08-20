@@ -13,24 +13,11 @@ params:
     name: "Open Sans"
     sizes: [400,600]
   hero:
-    # Main hero title
     title: GestoriasBaratas.es - Gestion de empresas en toda España. Creación gratuita en 72 horas.
-    # Hero subtitle (optional)
     subtitle: Te vendras por el precio. Te quedarás por nuestros servicios.
-    # Button text
     buttontext: Contactanos
-    # Where the main hero button links to
     buttonlink: "#contacto"
-    # Hero image (from /images/___)
     image: illustrations/multitasking.png
-    # Footer logos (from /images/logos/clients/___.svg)
-    # clientlogos:
-    # - systek
-    # - tribe
-    # - kromo
-    # - infinite
-    # - gutwork
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Productos
     url: "#productos"
