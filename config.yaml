@@ -14,7 +14,7 @@ params:
     sizes: [400,600]
   hero:
     title: GestoriasBaratas.es - Gestion de empresas en toda España. Creación gratuita en 72 horas.
-    subtitle: Te vendras por el precio. Te quedarás por nuestros servicios.
+    subtitle: Te vendrás por el precio. Te quedarás por nuestros servicios.
     buttontext: Contactanos
     buttonlink: "#contacto"
     image: illustrations/multitasking.png
@@ -36,8 +36,8 @@ params:
       icon: laptop-cloud
       buttonText: Gratis!
       url: "#contacto"
-      text: Ahorra mas de 700€ y crea tu empresa gratis, en menos de 72 horas, y puedes firmar cerca de tu casa.
-    - title: Gestion empresarial completa
+      text: Ahorra más de 700€ y crea tu empresa gratis, en menos de 72 horas, y puedes firmar cerca de tu casa.
+    - title: Gestión empresarial completa
       icon: mouse-globe
       buttonText: 90€/mes
       url: "#contacto"
@@ -52,15 +52,15 @@ params:
     title: Una nueva asesoria
     subtitle: Hablamos tu idioma, utilizamos las mejores tecnologias como parte de nuestro proceso diario. Desde el primer momento, notarás la diferencia con otras asesorias.
     features:
-    - title: Gestion completa
-      text: "Nuestro equipo cubre todos los servicios de gestoria para una empresa: contabilidad, impuestos, declaraciones, pagos, libros y cuentas."
+    - title: Gestión completa
+      text: "Nuestro equipo cubre todos los servicios de asesoría para una empresa: contabilidad, impuestos, declaraciones, tesorería, libros y cuentas."
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Informes
       text: Entregamos balance de perdidas/ganancias, balance de situación, balance de sumas/saldos, y todos los informes periodicos que el cliente necesita, en diferentes formatos digitales (XLS o PDF).
       icon: doc-sync
     - title: Herramientas de trabajo
-      text: Trabajamos con software que permite de gestionar facturas, pagos e informes te forma compartida con el cliente, para facilitar las operaciones diarias, mensuales y anuales. Nuestra plataforma tambien permite de gestionar facturas y recibos desde movil.
+      text: Trabajamos con software que te permite de gestionar facturas de gastos e ingresos, tesorería e informes de estados financieros y económicos, para facilitar las operaciones diarias, mensuales y anuales. Nuestra plataforma también permite  ser gestionado desde tu  móvil. Nuestra plataforma tambien permite de acceder a facturas y recibos desde movil.
       icon: mobile-feed
   technologies:
   - appearin
