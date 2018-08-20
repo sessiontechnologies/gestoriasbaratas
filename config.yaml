@@ -40,9 +40,9 @@ params:
       text: Ahorra más de 700€ y crea tu empresa gratis, en menos de 72 horas, y puedes firmar cerca de tu casa.
     - title: Gestión empresarial completa
       icon: mouse-globe
-      buttonText: 90€/mes
+      buttonText: 100€/mes
       url: "#contacto"
-      text: A partir de 90€/mes, gestionamos facturas, recibos e impuestos de tu empresa, de forma rápida y transparente.
+      text: A partir de 100€/mes, gestionamos facturas, recibos e impuestos de tu empresa, de forma rápida y transparente.
     - title: Tu consultoria a medida
       icon: plug-cloud
       buttonText: a medida
