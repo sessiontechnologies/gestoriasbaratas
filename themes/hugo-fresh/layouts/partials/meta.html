@@ -22,7 +22,7 @@
 <meta property="st:title" content="Gestorias Barata">
 <meta property="st:image" content="https://gestoriasbaratas.es/images/logos/gestoriasbarata-squared.png">
 
-<script type='text/javascript'>
+<script>
 // Don't force https when serving the website locally
 if (!(window.location.host.startsWith("127.0.0.1") && !(window.location.host.startsWith("localhost")) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
@@ -30,7 +30,7 @@ if (!(window.location.host.startsWith("127.0.0.1") && !(window.location.host.sta
 
 {{- if $jivoId }}
 <!-- BEGIN JIVOSITE CODE {literal} -->
-<script type='text/javascript'>
+<script>
 (function(){ var widget_id = '{{ $jivoId }}';var d=document;var w=window;function l(){
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
