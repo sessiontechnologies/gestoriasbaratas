@@ -4,6 +4,7 @@
 {{- $subtitle := index $services "subtitle" }}
 {{- $features := index $services "features" }}
 <section id="{{ $ancor }}" class="section is-medium">
+  <h2 style="visibility: hidden">Servicios</h2>
   <div class="container">
     <div class="columns">
       <div class="column is-7 mt-100">
@@ -16,7 +17,7 @@
           </figure>
           <div class="media-content mt-50">
             <div class="content">
-              <h4 class="icon-box-title">{{ .title }}</h4>
+              <h3 class="icon-box-title">{{ .title }}</h4>
               <span class="icon-box-text">{{ .text }}</span>
             </div>
           </div>
@@ -24,8 +25,8 @@
         {{- end }}
       </div>
       <div class="column is-centered-tablet-portrait">
-        <h2 class="title section-title">{{ $title }}</h2>
-        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+        <h3 class="title section-title">{{ $title }}</h2>
+        <h4 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
         <div class="divider" style="margin-bottom:1rem"></div>
         <img src="{{ printf "/images/illustrations/startup.jpg" | relURL }}" alt="Startup illustration">
       </div>
