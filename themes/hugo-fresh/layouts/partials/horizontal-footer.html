@@ -13,12 +13,7 @@
     }
   </script>
   <div class="container">
-    <div class="columns">
-      <div class="column">
-        <div class="footer-logo">
-          <img src="{{ printf "/images/logos/%s" $logo | relURL }}" alt="Footer logo {{ $logo }}">
-        </div>
-      </div>
+    
       {{- range $footerLinks }}
         <div class="column">
           <div id="{{ .id }}" class="modal">
@@ -27,16 +22,16 @@
               {{ $path := printf "%s.html" .id }}
               {{ partial $path . }}
             </div>
-            <button class="modal-close is-large" aria-label="close"></button>
+            <button class="modal-close is-large" onclick="getElementById('{{ .id }}').style.visibility='hidden'" aria-label="close"></button>
           </div>
-          <ul class="link-list"><li>
-            <a href="#" onclick="addClass({{ .id }},'is-active')">{{ .linkname }}</a>
-          </li></ul>
+          
+            
+          
         </div>
+        <a href="#" onclick="addClass({{ .id }},'is-active')">{{ .linkname }}</a>
       {{- end }}
 
-      <p style="text-align:right; font-size:0.8rem">Illustrations credits: <a target="_blank" href="https://www.vecteezy.com">Vecteezy.com</a> and <a target="_blank" href="https://www.vecteezy.com">FreePik.com</a></p>
-
+      
       {{- if $socialMedia }}
         <div class="column">
           <div class="footer-column">
