@@ -5,15 +5,22 @@
 {{- $docLinks     := index $footer "docs" }}
 {{- $socialMedia  := index $footer "socialmedia" }}
 {{- $bulmaLogo    := index $footer "bulmalogo" }}
-<footer class="footer footer-dark footer-hr">
+<footer class="footer footer-dark">
   <script>
     function addClass(classId, className) {
       var element = document.getElementById(classId);
       element.classList.add(className);
     }
+    function removeClass(classId, className) {
+      var element = document.getElementById(classId);
+      element.classList.remove(className);
+    }
   </script>
   <div class="container" style="border-top: solid 1px rgba(181,199,45,.5); padding-top: 2%; margin-bottom: 2%;">
     
+  
+    
+
       {{- range $footerLinks }}
         
           <div id="{{ .id }}" class="modal">
@@ -22,10 +29,11 @@
               {{ $path := printf "%s.html" .id }}
               {{ partial $path . }}
             </div>
-          
-            <button class="modal-close is-large" onclick="getElementById('{{ .id }}').style.visibility='hidden'" aria-label="close"></button>
+
+            <button class="modal-close is-large" onclick="removeClass({{ .id }},'is-active')" aria-label="close"></button>
+
           </div>
-          <div style="display:inline; float:right;">© 2018, Gestorías Barcelona.</div>
+          
           
             
           
