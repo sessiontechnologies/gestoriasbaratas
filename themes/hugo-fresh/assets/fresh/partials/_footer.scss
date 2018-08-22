@@ -1,19 +1,21 @@
 /* ==========================================================================
 Fresh Footer
 ========================================================================== */
+
 footer.footer-dark {
-    background: $blue-grey;
-    //Original value
-    // color: $white;
-    color: #fff !important;
+    background: #fff !important;
+    color: $white;
     .columns {
         margin-top: 35px;
     }
+    
     .footer-logo {
         img {
             height: 40px;
         }
     }
+    
+
     .footer-column {
         .footer-header h3 {
             font-weight:500;
