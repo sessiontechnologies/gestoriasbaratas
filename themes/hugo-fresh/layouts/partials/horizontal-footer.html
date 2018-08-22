@@ -11,14 +11,19 @@
       var element = document.getElementById(classId);
       element.classList.add(className);
     }
+    function removeClass(classId, className) {
+      var element = document.getElementById(classId);
+      element.classList.remove(className);
+    }
   </script>
   <div class="container">
     <div class="columns">
-      <div class="column">
+<!--       <div class="column">
         <div class="footer-logo">
           <img src="{{ printf "/images/logos/%s" $logo | relURL }}" alt="Footer logo {{ $logo }}">
         </div>
       </div>
+ -->
       {{- range $footerLinks }}
         <div class="column">
           <div id="{{ .id }}" class="modal">
@@ -27,7 +32,7 @@
               {{ $path := printf "%s.html" .id }}
               {{ partial $path . }}
             </div>
-            <button class="modal-close is-large" aria-label="close"></button>
+            <button class="modal-close is-large" onclick="removeClass({{ .id }},'is-active')" aria-label="close"></button>
           </div>
           <ul class="link-list"><li>
             <a href="#" onclick="addClass({{ .id }},'is-active')">{{ .linkname }}</a>

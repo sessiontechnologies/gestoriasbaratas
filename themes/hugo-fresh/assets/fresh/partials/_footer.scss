@@ -3,7 +3,9 @@ Fresh Footer
 ========================================================================== */
 footer.footer-dark {
     background: $blue-grey;
-    color: $white;
+    //Original value
+    // color: $white;
+    color: #fff !important;
     .columns {
         margin-top: 35px;
     }
