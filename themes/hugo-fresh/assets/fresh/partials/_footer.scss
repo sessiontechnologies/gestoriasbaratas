@@ -7,11 +7,16 @@ footer.footer-dark {
     .columns {
         margin-top: 35px;
     }
+    .footer-hr {
+        border-top: dotted 1px black;   
+    }
     .footer-logo {
         img {
             height: 40px;
         }
     }
+    
+
     .footer-column {
         .footer-header h3 {
             font-weight:500;
