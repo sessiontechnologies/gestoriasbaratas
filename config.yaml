@@ -3,7 +3,7 @@ languageCode: es
 title: Gestorias Baratas
 theme: hugo-fresh
 publishDir: docs
-
+staticDir: static
 
 params:
   jivoid: FmrIdswqLT
