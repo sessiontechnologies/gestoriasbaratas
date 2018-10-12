@@ -3,23 +3,22 @@ language: python
 python:
     - "3.6"
 
+env:
+  - HUGO_VERSION=0.49.2
+
 install:
-    - which hugo
-    - hugo version
-    - pip install Pygments
-    - npm install -g postcss-cli
-    - npm install -g bulma
-    - npm install -g minify
-    - npm install -g fingerprint
-    - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.tar.gz/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
-    - tar xvzf hugo*.tar.gz
-    - export PATH=${PATH}:${PWD}/hugo_0.49.2_Linux-64bit
-    - rm -rf docs 2> /dev/null
-    - mkdir -p content
-    - mkdir -p docs
+  # - pip install Pygments
+  # - npm install -g postcss-cli
+  # - npm install -g bulma
+  # - npm install -g minify
+  # - npm install -g fingerprint
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - tar xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar hugo*.tar.gz
+  - export PATH=${PATH}:${PWD}/hugo_${HUGO_VERSION}_Linux-64bit
 
 script:
-    - hugo
+  - rm -rf docs 2> /dev/null
+  - hugo
 
 deploy:
   provider: pages
