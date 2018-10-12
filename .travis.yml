@@ -13,7 +13,7 @@ install:
   # - npm install -g minify
   # - npm install -g fingerprint
   - wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-  - tar xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar hugo*.tar.gz
+  - tar xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
   - export PATH=${PATH}:${PWD}/hugo_${HUGO_VERSION}_Linux-64bit
 
 script:
